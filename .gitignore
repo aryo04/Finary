@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart / Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Output Binaries (Jangan commit APK / AAB ke Git)
+*.apk
+*.aab
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Specific (Sangat Penting untuk Keamanan & Portabilitas)
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Keystore & Android Release Signing (JANGAN PERNAH DI-PUSH KE GITHUB)
+*.jks
+*.keystore
+**/android/key.properties
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+!*.env.example
+
+# Supabase CLI Local & Temp Data
+supabase/.temp/
+supabase/.branches/
+
+# Platform Ephemeral & Generated files
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Widget Preview related
+.widget_preview/
